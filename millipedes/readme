@@ -6,3 +6,5 @@ Then I wrote a script to scrape the formatted document and create a dictionary w
 Then I read through the 4 files and wrote new "edit" files with the MCZ numbers replaced by the format needed.
 
 Pretty straightforward, but I'm sure I'll need some version of this script again so I'll stash it here, annotated.
+
+Lazypede.py is the script, in_list is an example of the formatting.
