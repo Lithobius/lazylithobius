@@ -15,7 +15,7 @@ if __name__ == "__main__":
             #first make sure line isn't blank
             if not line.isspace():
                 #remove info from mPTP
-                if line.startswith('Command') or line.startswith('Number of edges') or line.startswith('Null-model') or line.startswith('Best score for') or line.startswith('Number of delimited') == True:
+                if line.startswith('Command') or line.startswith('Number of edges') or line.startswith('Null-model') or line.startswith('Best score for') or line.startswith('Number of delimited') or line.startswith('LRT') == True:
                     pass
                 #record species numbers
                 #will overwrite anytime a new one pops up
