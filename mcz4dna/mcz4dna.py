@@ -7,7 +7,7 @@
 # This script was designed to replace legacy numbers (DNA numbers) with MCZ numbers, but it can be lightly modified to replace any A->B in high volumes. It is best used in situations where you have many files with the same values to replace.
 # 
 # First, create a spreadsheet in csv format with two columns; MCZ_NUM for your MCZ numbers (or your replacement values if modifying) and DNA_NUM for your legacy numbers (or original values). In my original project there were several folders of repetitive replacement, and I was able to obtain this spreadsheet by downloading the data from MCZbase, deleting the extra columns, and removing "DNA Number=" and genbank/field numbers via grep (cmd+f, replace it with nothing, replace all ; regex for genbank numbers was "=KJ([0-9]{6})").
-# One line of this csv looks like this:
+# One line of this csv should look like this:
 # 136168,DNA105996
 # 
 # Then in the "def dnamczdic():" block, replace the value in 'sourcefile =' with the filepath to your csv. If your column names are different, change them in the annotated line.
