@@ -56,8 +56,8 @@ import re
 
 def dna4mcz():
     #put your filepaths here
-    direct = '/Users/katesheridan/Documents/Harvard/Research/Neopilionidaescratch/scripts/fixlegacy/28s/'
-    dest_direct = '/Users/katesheridan/Documents/Harvard/Research/Neopilionidaescratch/scripts/fixlegacy/H3H4_fix/'
+    direct = '/Users/katesheridan/Documents/Harvard/Research/Neopilionidaescratch/scripts/fixlegacy/18s/'
+    dest_direct = '/Users/katesheridan/Documents/Harvard/Research/Neopilionidaescratch/scripts/fixlegacy/18s_fix/'
     for filename in os.listdir(direct):
         #replace "r'(_)'" with "r'(yourvalue)'"
         dst = re.split(r'(_)', filename)
