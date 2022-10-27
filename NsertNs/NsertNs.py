@@ -27,8 +27,6 @@
 # 
 # Then you'll have your FASTA with a bunch of N's. The text isn't wrapped and it won't look pretty but it works.
 
-# In[42]:
-
 
 import re
 import fileinput
