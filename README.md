@@ -74,3 +74,12 @@ split2csv_seine2.py is from the PECO project, where we had partners record data 
 This script doesn't have super great documentation at the moment but basically it skips sheets that we don't care about, then takes any populated sheet and writes it to csv.
 
 Key note with this is that it threw errors about files not being excels, and this was due to invisible .DS_store files as well as dotfiles created by excel when a file was open. It was necessary to use command line to see and remove ds store files. Stupid Apple.
+
+### trimlist
+
+I was searching/blasting a bunch of stuff on NCBI and when it stops I can trim the file to have it start at the ASV it left off. trimlist is for lists of accession numbers, trimfasta is for fasta files.
+
+You enter the accession/asv/sample name in 'goal' and it will make a trimmed version of the list or fasta.
+
+NOTE be sure to change your original script to APPEND instead of WRITE, or change the target file name. Otherwise the resumed search will overwrite your old search.
+
